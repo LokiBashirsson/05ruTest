@@ -1,0 +1,44 @@
+.auto-resize {
+    margin: 31px 0 33px;
+    min-height: max-content;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 153%;
+    color: #eaeaea;
+
+    >textarea {
+        width: 100%;
+        max-width: 621px;
+        min-height: 50px;
+        height: 253px;
+        resize: none;
+        overflow: hidden;
+        padding: 0px;
+        font-size: 16px;
+        border: 0;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: #eaeaea;
+        border-radius: 5px;
+        box-sizing: border-box;
+        transition: all 0.12s;
+        font-family: var(--font-family);
+  
+
+        &::placeholder {
+            color: #eaeaea;
+        }
+
+        &:focus {
+            color: #eaeaea;
+        }
+    }
+
+    >h1 {
+        margin: 46px 0 0 0;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 74%;
+        color: #fff;
+    }
+}

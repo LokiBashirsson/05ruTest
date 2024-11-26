@@ -1,0 +1,41 @@
+.ReactiveButtons {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+
+    .ReactiveButtons_buttons {
+        display: flex;
+        gap: 12px;
+
+        >button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #282828;
+            border-radius: 4px;
+            width: 42px;
+            max-width: 42px;
+            height: 38px;
+            transition: filter 0.16s;
+
+            &:hover {
+                filter: contrast(0.9);
+            }
+
+            &:active {
+                filter: contrast(0.6);
+                transition: filter 0.06s;
+            }
+        }
+    }
+
+    .ReactiveButtons_text {
+        position: relative;
+        font-family: var('Roboto', sans-serif);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 153%;
+        color: #639eff;
+        cursor: pointer;
+    }
+}
